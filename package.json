@@ -1,0 +1,19 @@
+{
+  "name": "heap",
+  "version": "1.0.0",
+  "description": "Min Heap and Max Heap implemented in TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Josiah Burchard",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.5.3",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.41"
+  }
+}
