@@ -6,6 +6,10 @@ export abstract class Heap {
     this.comparator = comparator;
   }
 
+  public get count(): number {
+    return this.items.length;
+  }
+
   public peak(): number {
     this.checkItems();
     return this.items[0];
